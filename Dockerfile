@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:12
 
-RUN npm install -g @stoplight/spectral-cli
+RUN npm install -g @apidevtools/swagger-cli
 
 COPY entrypoint.sh /usr/local/bin/
 

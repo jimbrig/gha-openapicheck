@@ -1,0 +1,18 @@
+{
+  "name": "gha-openapicheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "swagger-cli validate ./examples/swagger.yml"
+  },
+  "keywords": [],
+  "author": "Jimmy Briggs <jimmy.briggs@jimbrig.com> (https://github.com/jimbrig)",
+  "license": "Unlicense",
+  "dependencies": {
+    "@apidevtools/swagger-cli": "^4.0.4"
+  }
+}

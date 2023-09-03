@@ -28,6 +28,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Lint swagger file
-        uses: jimbrig/gha-openapicheck@v2
+        uses: jimbrig/gha-openapicheck@v3
         with:
           file_path: examples/swagger.yaml
