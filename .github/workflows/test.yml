@@ -30,4 +30,4 @@ jobs:
       - name: Lint swagger file
         uses: jimbrig/gha-openapicheck@v3
         with:
-          file_path: examples/swagger.yaml
+          file_path: examples/swagger.yml
