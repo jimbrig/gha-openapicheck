@@ -12,7 +12,7 @@ on:
       file_path:
         description: 'Path to the swagger file'
         required: true
-        default: 'examples/swagger.yaml'
+        default: 'examples/swagger.yml'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
