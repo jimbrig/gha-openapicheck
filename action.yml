@@ -1,0 +1,14 @@
+name: "OpenApi Specification Lint action"
+description: "Runs Swagger validation on your OAS JSON or YAML file. Supports Swagger 2.0 or OpenAPI 3.0 format"
+branding:
+  icon: "code"
+  color: "blue"
+inputs:
+  file_path:
+    description: "Path to OpenApi specification file for validation"
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.file_path }}
